@@ -18,7 +18,7 @@ const sendEmail = async (email, subject, text) => {
 
   // Define the email options
   const mailOptions = {
-    from: "MindLogistics <noreply@mindlogistics.co.il>",
+    from: "Logistic Framework",
     to: email,
     subject: subject,
     html: text,
