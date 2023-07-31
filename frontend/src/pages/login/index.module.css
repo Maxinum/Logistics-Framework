@@ -1,0 +1,19 @@
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.subHeading {
+  color: #c4c4c4;
+  font-size: 0.8125rem;
+}
+
+.resetPassword {
+  color: var(--blue);
+}
+
+.errorMessage {
+  align-self: flex-start;
+  color: #d74747;
+  font-size: 0.875rem;
+}

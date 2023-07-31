@@ -1,0 +1,109 @@
+.locations {
+  color: var(--blue);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.duration {
+  margin-top: -15px;
+  color: #94a1aB;
+}
+
+.freightPath {
+  width: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  position: relative;
+}
+
+.location>div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.location svg {
+  color: var(--blue);
+}
+
+.railLocation svg {
+  color: #1fbbb0;
+}
+
+.railLocation .midPoint {
+  background-color: #1fbbb0;
+}
+
+.midPointName,
+.mainPointName {
+  color: #94a1aB;
+  left: 20px;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.midPointName {
+  font-size: 0.75rem;
+  bottom: -3px;
+}
+
+.mainPointName {
+  bottom: -1px;
+}
+
+.mainPoint {
+  border-radius: 100%;
+  height: 13px;
+  width: 13px;
+}
+
+.midPoint {
+  background-color: var(--blue);
+  height: 7px;
+  width: 7px;
+}
+
+.startPoint {
+  border: 4px solid var(--blue);
+}
+
+.endPoint {
+  background-color: #1fbbb0;
+}
+
+.finalPath {
+  height: 26px;
+  width: 1px;
+  background-color: #1fbbb0;
+}
+
+
+.priceCard {
+  align-items: center;
+  border: 1px solid #cfd7df;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 25px 27px;
+  white-space: nowrap;
+}
+
+.priceHeader {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.average {
+  color: #94a1aB;
+}

@@ -1,0 +1,47 @@
+.radioChip {
+  display: none;
+}
+
+.label {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background-color: #ebf4fd;
+  cursor: pointer;
+  color: var(--blue);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.75rem;
+  gap: 6px;
+  padding: 8px 12px;
+  -webkit-transition: all 100ms;
+  -o-transition: all 100ms;
+  transition: all 100ms;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.label:hover {
+  border-color: #b1b6bb;
+  opacity: 0.9;
+}
+
+.checked {
+  background-color: #e1e9f0;
+  border-color: #d2d8de;
+}
+
+.checked::after {
+  content: "";
+  background-color: #59dc69;
+  border-radius: 100%;
+  display: inline-block;
+  margin-top: -1px;
+  height: 5px;
+  width: 5px;
+}
