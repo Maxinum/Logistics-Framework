@@ -18,7 +18,7 @@ const sendEmail = async (email, subject, text) => {
 
   // Define the email options
   const mailOptions = {
-    from: "Logistic Framework",
+    from: `Logistic Framework <${process.env.EMAIL_ADDRESS}>`,
     to: email,
     subject: subject,
     html: text,
