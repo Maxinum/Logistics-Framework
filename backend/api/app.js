@@ -42,11 +42,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/api/v1/", indexRouter);
 app.use("/api/v1/", usersRouter);
 app.use("/api/v1/", priceListRouter);
-app.use("/application", express.static(path.join(__dirname, '/front/build')));
-
-app.use('/application/*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'front/build/index.html'));
-});
 
 app.all("/api/v1/*", (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl}`, 404));

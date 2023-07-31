@@ -123,7 +123,7 @@ exports.sendInvitation = catchAsync(async (req, res, next) => {
   const { name } = companyData;
 
   // Generate the invitation message
-  const invitationUrl = `http://ml.maxinum.kz/sign-up/${token}`;
+  const invitationUrl = `${process.env.SITE_URL}sign-up/${token}`;
   const message = new Helper().getMessage("invitation", name, invitationUrl);
 
   // Send the invitation email

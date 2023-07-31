@@ -9,18 +9,16 @@ const nodemailer = require("nodemailer");
 const sendEmail = async (email, subject, text) => {
   // Create a nodemailer transporter using the Gmail service and authentication
   const transporter = nodemailer.createTransport({
-    service: "smtp.yandex.ru",
-    port: 465,
-    secure: true,
+    service: "gmail",
     auth: {
       user: process.env.EMAIL_ADDRESS,
-      pass: process.env.EMAIL_PASSWORD,
+      pass: process.env.EMAIL_PASS,
     },
   });
 
   // Define the email options
   const mailOptions = {
-    from: process.env.EMAIL_ADDRESS,
+    from: "MindLogistics <noreply@mindlogistics.co.il>",
     to: email,
     subject: subject,
     html: text,

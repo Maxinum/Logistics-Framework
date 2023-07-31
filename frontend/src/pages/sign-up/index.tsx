@@ -14,7 +14,6 @@ import {
   PrimaryButton,
   PasswordValidityProgress
 } from "../../components";
-import Logo from "../../assets/logo.png";
 
 type SignupFormProps = {
   invite: string;
@@ -74,8 +73,6 @@ function SignupForm({ invite, email }: SignupFormProps) {
 
   return (
     <>
-      <img src={Logo} width={137} height={40} alt="Logistics Framework" />
-
       <hgroup>
         <Typography variant="h4" component="h1" textAlign="center" marginBottom={2}>
           Sign up to Freight Simulator

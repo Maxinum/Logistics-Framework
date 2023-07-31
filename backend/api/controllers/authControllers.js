@@ -324,7 +324,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   await user.save({ validateBeforeSave: false });
 
   // Generate the reset password link with the reset token
-  const resetPasswordLink = `http://ml.maxinum.kz/reset-password/${resetToken}`;
+  const resetPasswordLink = `${process.env.SITE_URL}reset-password/${resetToken}`;
 
   // Create the email message
   const message = new Helper().getMessage("forgot", "", resetPasswordLink);
