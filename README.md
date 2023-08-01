@@ -8,6 +8,13 @@ The Logistic Framework is a powerful application designed to streamline logistic
  - Route Optimization: Automatically calculate the best and most efficient routes for shipments, minimizing transit time and optimizing resource utilization.
  - Cost Calculation: Instantly calculate shipping costs based on various factors, helping businesses make informed decisions and manage their budget effectively.
 
+## 💻 Demo
+
+You can try the demo of the Cash Flow Web App <a href="https://ship-demo.maxinum.kz/">here</a>.
+### Authorization:
+### `rakhman.ibrayev@gmail.com`
+### `Admin123!`
+
 ## 💾 Installation
 
 To run the Logistic Framework locally, follow these steps:
@@ -23,11 +30,6 @@ To run the Logistic Framework locally, follow these steps:
 Start the development server:
 ### `npm run dev`
 Open your web browser and navigate to http://localhost:3000 to access the app.
-
-## Authorization
-
-### `rakhman.ibrayev@gmail.com`
-### `Admin123!`
 
 ## ♻️ Usage
 Tracking Shipment:
