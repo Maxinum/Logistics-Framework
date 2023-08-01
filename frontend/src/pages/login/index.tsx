@@ -53,6 +53,8 @@ export default function Login() {
 
         <Stack component="form" onSubmit={handleLogin} spacing={3}>
           <Stack spacing={1.5}>
+            <p >login: test@maxinum.co</p>
+            <p >password: Trueforyou1*</p>
             <OutlinedInput
               id="email"
               type="email"
