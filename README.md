@@ -10,7 +10,7 @@ The Logistic Framework is a powerful application designed to streamline logistic
 
 ## 💻 Demo
 
-You can try the demo of the Cash Flow Web App <a href="https://ship-demo.maxinum.kz/">here</a>.
+You can try the demo of the Logistics framework <a href="https://ship-demo.maxinum.kz/">here</a>.
 ### Authorization:
 ### `rakhman.ibrayev@gmail.com`
 ### `Admin123!`
