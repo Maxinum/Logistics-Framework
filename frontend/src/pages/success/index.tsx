@@ -8,7 +8,7 @@ export default function Success() {
 
   return (
     <Stack component="main" alignItems="center" justifyContent="center" minHeight="100%" spacing={3}>
-      <img src={Logo} width={137} height={40} alt="Logistics Framework" />
+      <img src={Logo} width={40} height={40} alt="Logistics Framework" />
 
       <Typography variant="h4" component="h1">
         {state.title}
