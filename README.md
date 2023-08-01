@@ -24,6 +24,11 @@ Start the development server:
 ### `npm run dev`
 Open your web browser and navigate to http://localhost:3000 to access the app.
 
+## Authorization
+
+### `rakhman.ibrayev@gmail.com`
+### `Admin123!`
+
 ## ♻️ Usage
 Tracking Shipment:
 To track a shipment, use the unique tracking number provided during the logistics process. Enter the tracking number in the provided field on the application interface to view real-time updates and current status.
