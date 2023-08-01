@@ -10,20 +10,19 @@ The Logistic Framework is a powerful application designed to streamline logistic
 
 ## Installation
 
-Clone the repository from GitHub:
-bash
-Copy code
-git clone <repository_url>
-cd Logistic-Framework
-Install the required dependencies:
+To run the WareHouseBot locally, follow these steps:
 
-npm install
-Configure the application settings, such as database connections and external service integrations, in the appropriate configuration files.
-Getting Started
-To launch the Logistic Framework, run the following command:
+1. Clone the repository to your local machine.
+2. Navigate to the project's root directory.
+3. Install the required dependencies:
+### `cd frontend`
+### `npm install`
+### `cd backend/api`
+### `npm install`
 
-npm start
-The application will be accessible via the specified URL, and you can start utilizing its various functionalities.
+Start the development server:
+### `npm run dev`
+Open your web browser and navigate to http://localhost:3000 to access the app.
 
 ## Usage
 Tracking Shipment:
