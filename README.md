@@ -10,7 +10,7 @@ The Logistic Framework is a powerful application designed to streamline logistic
 
 ## 💾 Installation
 
-To run the WareHouseBot locally, follow these steps:
+To run the Logistic Framework locally, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Navigate to the project's root directory.
